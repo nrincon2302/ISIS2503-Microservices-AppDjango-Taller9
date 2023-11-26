@@ -1,3 +1,6 @@
+from django.shortcuts import render
+
+# Create your views here.
 from .models import Place
 from django.shortcuts import render, redirect
 from django.contrib import messages
